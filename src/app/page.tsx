@@ -12,9 +12,11 @@ import { Metadata } from "next";
 import Services from "@/components/Services";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "Byte Grove Technology - Propel Your Startup to Success",
+  description: "Byte Grove Technology specializes in providing tailored web, mobile app, and software solutions to help B2B startups achieve success. Explore our services, including customizable app development, intuitive UI design, backend integration, cloud hosting, and API integration. Stay updated with our latest blogs and connect with us for premier support.",
+  keywords: ["Byte Grove Technology", "startup solutions", "web development", "mobile app development", "software solutions", "UI design", "backend integration", "cloud hosting", "API integration", "B2B ventures", "support", "blog"],
+  authors: [{ name: 'Byte Grove Technology' }],
+  viewport: "width=device-width, initial-scale=1.0",  // other metadata
 };
 
 export default function Home() {
