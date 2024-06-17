@@ -29,7 +29,7 @@ export default function Home() {
       <Services />
       {/* <Video /> */}
       {/* <Brands /> */}
-      {/* <AboutSectionOne /> */}
+      <AboutSectionOne />
       {/* <AboutSectionTwo /> */}
       {/* <Testimonials /> */}
       {/* <Pricing /> */}

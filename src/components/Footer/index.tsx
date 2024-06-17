@@ -30,7 +30,7 @@ const Footer = () => {
                  Email us on <a href="mailto:hi@bytegrove.in">hi@bytegrove.in</a>
                 </p>
                 <div className="flex items-center">
-                  <a
+                  {/* <a
                     href="/"
                     aria-label="social-link"
                     target="_blank"
@@ -49,9 +49,9 @@ const Footer = () => {
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </a> */}
                   <a
-                    href="/"
+                    href="https://x.com/BytegroveT"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -89,7 +89,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/company/bytegrove-technology/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -116,20 +116,20 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="https://blog.bytegrove.in"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Pricing
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/about"
